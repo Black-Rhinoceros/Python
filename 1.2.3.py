@@ -12,6 +12,8 @@ def getTile(url):
     except AttributeError as e:
         return None
     return title
+
+
 title = getTile("http://www.pythonscraping.com/pages/page1.html")
 if title is None:
     print('Title could not be found')
